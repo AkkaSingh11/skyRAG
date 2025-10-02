@@ -1,6 +1,6 @@
-# Gemini-Powered LangGraph RAG Agent
+# skyRAG - Gemini-Powered LangGraph RAG Agent
 
-This project implements a sophisticated RAG (Retrieval-Augmented Generation) agent using LangGraph with Google Gemini models. The agent features adaptive routing, local knowledge base search, web search capabilities, and a modern web-based chat interface.
+An Open Agentic RAG system for educational purposes built with LangGraph and Google Gemini models. This project implements a sophisticated RAG (Retrieval-Augmented Generation) agent with adaptive routing, local knowledge base search, web search capabilities, and a modern web-based chat interface.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ This project implements a sophisticated RAG (Retrieval-Augmented Generation) age
 ## 📁 Project Structure
 
 ```
-RAG_Agent_LangGraph/
+skyRAG/
 ├── app/                           # Core application modules
 │   ├── agent.py                   # Original OpenAI-based agent (legacy)
 │   ├── gemini_agent.py           # New Gemini-based LangGraph agent ⭐
