@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Examples folder (contains git submodules)
+examples/*
+
+# Virtual environments
+.venv
+
+# Environment files (contains API keys)
+.env
+
+# Vector store databases
+chroma_db_*/
+chroma_db_1/
+chroma_db_gemini/
+
+# Documents folder (user-specific content)
+docs/
+
+# Logs
+*.log

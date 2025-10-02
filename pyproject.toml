@@ -1,0 +1,29 @@
+[project]
+name = "rag-agent-langgraph"
+version = "0.1.0"
+description = "Gemini-based RAG Agent using LangGraph with Chat UI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.12",
+    "langchain-community>=0.3.30",
+    "langchain-core>=0.3.77",
+    "duckduckgo-search>=8.1.1",
+    "wikipedia>=1.4.0",
+    "pydantic>=2.11.9",
+    "langgraph>=0.6.8",
+    "langchain-openai>=0.3.34",
+    "docx2txt>=0.9",
+    "pypdf>=6.1.1",
+    "unstructured>=0.18.15",
+    "langchain-tavily>=0.2.11",
+    "chromadb>=1.1.0",
+    "sentence-transformers>=5.1.1",
+    "faiss-cpu>=1.12.0",
+    "ipython>=9.6.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.37.0",
+    "python-multipart>=0.0.6",
+    "python-dotenv>=1.1.1",
+]
